@@ -145,4 +145,4 @@ def delete_order(id: int):
     return {"data": deleted_order}
 ```
 
-All of the code snippets in this file are also contained in the "http-reques-methods.py" file for easier reference.
+All of the code snippets used in this file are also contained in the "http-reques-methods.py" file for easier reference.
