@@ -3,7 +3,7 @@
 
 Because we are only focused on coding the backend for Launch-Pizza's online store, we will assume that the frontend of the website has a way to retreive the customer's order information and convert it to a json object. This json object should contain the name of the customer, the different items ordered, the quantity, the price of the order, the status of the order, and when the order was placed. 
 
-We will be using python and fastAPI to write our backend, and PostgreSQL as our database management system, however, other languages, frameworks should work as well. Although in the real world, using an object-relational mapper such as SQLAlchemy might be more optimal, we will use the default PostgreSQL driver Psycopg to connect our code and database as it is a bit simpler.
+We will be using python and fastAPI to write our backend, and PostgreSQL as our database management system, however, other languages and frameworks should work as well. Although using an object-relational mapper such as SQLAlchemy might be more convenient in the long run, we will use the default PostgreSQL driver Psycopg to connect our code and database as it is a bit simpler.
 
 To connect our code to an existing database using Psycopg, we simply follow the module's documentation. An example of this is shown below:
 
