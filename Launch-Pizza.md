@@ -12,7 +12,7 @@ conn = psycopg2.connect(host="localhost",database="launchpizza",user="postgres",
 cursor = conn.cursor()
 ```
 
-In case, the connection to the database fails, we can wrap this code in a try except as well as a while loop to continue trying to establish a connection if we fail to connect to the database:
+In case the connection to the database fails, we can wrap this code in a try except as well as a while loop to continue trying to establish a connection if we fail to connect to the database:
 
 ```
 while True:
